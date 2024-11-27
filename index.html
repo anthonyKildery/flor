@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolução da qualidade de IMAGEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <main class="scroll-container">
+        <section class="conteiner" id="section1">
+            <div class="conteudo">
+                <img src="img/144p.png" alt="" width="255px">
+                <p>144p</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section2')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner" id="section2">
+            <div class="conteudo">
+                <img src="img/240p.png" alt="" width="255px">
+                <p>240p</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section1')">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                    <button class="scroll-button" onclick="scrollToSection('section3')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner" id="section3">
+            <div class="conteudo">
+                <img src="img/360p.png" alt="" width="255px">
+                <p>360p</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section2')">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                    <button class="scroll-button" onclick="scrollToSection('section4')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner" id="section4">
+            <div class="conteudo">
+                <img src="img/480p.png" alt="" width="255px">
+                <p>480p</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section3')">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                    <button class="scroll-button" onclick="scrollToSection('section5')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner"  id="section5">
+            <div class="conteudo">
+                <img src="img/720p.png" alt="" width="280px">
+                <p>720p</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section4')">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                    <button class="scroll-button" onclick="scrollToSection('section6')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner"  id="section6">
+            <div class="conteudo">
+                <img src="img/voce.png" alt="" width="400px">
+                <p>Você é a verdadeira 🌹</p>
+                <div class="button-container">
+                    <button class="scroll-button" onclick="scrollToSection('section5')">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<script src="script.js"></script>
